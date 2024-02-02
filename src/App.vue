@@ -1,6 +1,18 @@
-<script setup></script>
+<script>
+import NavBar from "./components/NavBar.vue";
+export default {
+  name: "App",
+  components: {
+    NavBar,
+  },
+};
+</script>
 
-<template></template>
+<template>
+  <div class="main-container">
+    <NavBar />
+  </div>
+</template>
 
 <style scoped>
 .logo {

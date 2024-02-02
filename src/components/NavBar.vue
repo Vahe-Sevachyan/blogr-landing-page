@@ -1,10 +1,14 @@
-<script setup></script>
+<script>
+// export default {
+//   name: "NavBar",
+// };
+</script>
 
 <template>
   <div class="nav-container">
     <div>
       <ul>
-        Product
+        Product 1
       </ul>
       <ul>
         Category
@@ -25,4 +29,7 @@
 .read-the-docs {
   color: #888;
 }
+/* ul {
+  color: white;
+} */
 </style>
