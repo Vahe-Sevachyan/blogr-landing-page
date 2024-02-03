@@ -24,20 +24,20 @@ export default {
 
 <style scoped>
 .nav-section {
-  background-color: grey;
-  width: 90rem;
+  /* background-color: grey; */
+  width: 130rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .nav-menu {
   display: flex;
-  width: 23rem;
+  width: 33rem;
   justify-content: space-between;
 }
 .nav-links {
   display: flex;
-  width: 40rem;
+  width: 18rem;
   justify-content: space-between;
   list-style: none;
 }
