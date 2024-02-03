@@ -10,4 +10,17 @@
     <div><button>Start For Free</button> <button>Learn more</button></div>
   </div>
 </template>
-<style></style>
+<style scoped>
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 30rem;
+}
+
+h1,
+p {
+  color: white;
+}
+</style>
