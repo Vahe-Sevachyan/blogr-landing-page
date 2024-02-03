@@ -6,14 +6,14 @@ export default {
 
 <template>
   <div class="nav-section">
-    <div class="nav-menu">
+    <nav class="nav-menu">
       <img src="../assets/images/logo.svg" alt="blog logo" />
       <ul class="nav-links">
         <li>Product</li>
         <li>Category</li>
         <li>Contact</li>
       </ul>
-    </div>
+    </nav>
 
     <div class="btn-container">
       <button>Login</button>
@@ -25,10 +25,14 @@ export default {
 <style scoped>
 .nav-section {
   /* background-color: grey; */
-  width: 130rem;
+  /* width: 130rem; */
+  width: 80%;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  padding: 1.5rem 1rem 1.5rem 1rem;
 }
 .nav-menu {
   display: flex;
@@ -40,9 +44,10 @@ export default {
   width: 18rem;
   justify-content: space-between;
   list-style: none;
+  align-items: center;
 }
 .btn-container {
-  width: 10rem;
+  width: 12rem;
   display: flex;
   justify-content: space-between;
 }
