@@ -8,7 +8,7 @@
   <div class="body-one-container">
     <h2>Designed for the future</h2>
     <div class="body-one-display">
-      <div class="description">
+      <div class="description-paragraph">
         <h3>Introducing an extensible editor</h3>
         <p class="description-paragraph">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum iste
@@ -36,28 +36,32 @@
 <style scoped>
 .body-one-container {
   width: 80%;
+  /* height: 60rem; */
   margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 2rem;
 }
 .body-one-display {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 60rem;
-  width: 100%;
 }
-.description {
+.description-paragraph {
   display: flex;
   flex-direction: column;
+  max-width: 100%;
+  max-height: 100%;
 }
 .description-paragraph {
   font-size: 3rem;
 }
 .description-img {
-  object-fit: scale-down;
-  object-fit: fill;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
 }
 </style>
