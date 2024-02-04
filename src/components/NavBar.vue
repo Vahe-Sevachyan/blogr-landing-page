@@ -14,7 +14,6 @@ export default {
         <li>Contact</li>
       </ul>
     </nav>
-
     <div class="btn-container">
       <button>Login</button>
       <button>Sign Up</button>
@@ -31,7 +30,6 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   padding: 1.5rem 1rem 1.5rem 1rem;
 }
 .nav-menu {

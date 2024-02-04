@@ -1,11 +1,13 @@
 <script>
 import NavBar from "./components/NavBar.vue";
 import HeroSection from "./components/HeroSection.vue";
+import BodyOne from "./components/BodyOne.vue";
 export default {
   name: "App",
   components: {
     NavBar,
     HeroSection,
+    BodyOne,
   },
 };
 </script>
@@ -16,12 +18,27 @@ export default {
       <NavBar />
       <HeroSection />
     </div>
+    <body>
+      <BodyOne />
+    </body>
   </div>
 </template>
 
 <style scoped>
 .header {
   background-color: hsl(356, 100%, 66%);
+  background-image: url("./assets/images/bg-pattern-intro-desktop.svg");
+  /* background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  -webkit-background-size: cover; */
+  /* ******************************** */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
   /* max-width: 170rem; */
   width: 100%;
   margin: auto;
