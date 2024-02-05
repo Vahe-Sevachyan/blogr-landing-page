@@ -10,14 +10,14 @@
     <div class="body-one-display">
       <div class="description-paragraph">
         <h3>Introducing an extensible editor</h3>
-        <p class="description-paragraph">
+        <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum iste
           autem, enim quibusdam impedit recusandae consequatur minima reiciendis
           ipsam voluptatum exercitationem laboriosam quo natus. Recusandae dolor
           ad deleniti blanditiis velit.
         </p>
         <h3>Robust content management</h3>
-        <p class="description-paragraph">
+        <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum iste
           autem, enim quibusdam impedit recusandae consequatur minima reiciendis
           ipsam voluptatum exercitationem laboriosam quo natus. Recusandae dolor
@@ -43,6 +43,7 @@
   align-items: center;
   flex-direction: column;
   margin-top: 2rem;
+  margin-bottom: 3rem;
 }
 .body-one-display {
   display: flex;
@@ -55,9 +56,14 @@
   flex-direction: column;
   max-width: 100%;
   max-height: 100%;
-}
-.description-paragraph {
   font-size: 1.3vw;
+}
+.description-paragraph p {
+  color: #2c2d3f;
+  margin-bottom: 2rem;
+}
+.description-paragraph h3 {
+  margin-bottom: 2.5rem;
 }
 .description-img {
   width: 100%;

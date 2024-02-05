@@ -45,7 +45,7 @@ export default {
   /* max-width: 170rem; */
   width: 100%;
   margin: auto;
-  height: 70vh;
+  /* height: 70vh; */
   display: flex;
   justify-content: center;
   align-items: center;
