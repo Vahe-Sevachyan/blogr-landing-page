@@ -35,7 +35,7 @@
 
 <style scoped>
 .body-one-container {
-  width: 80%;
+  width: 85%;
   /* height: 60rem; */
   margin: auto;
   display: flex;
@@ -57,11 +57,11 @@
   max-height: 100%;
 }
 .description-paragraph {
-  font-size: 3rem;
+  font-size: 1.3vw;
 }
 .description-img {
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
 }
 </style>

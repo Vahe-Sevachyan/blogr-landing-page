@@ -2,12 +2,14 @@
 import NavBar from "./components/NavBar.vue";
 import HeroSection from "./components/HeroSection.vue";
 import BodyOne from "./components/BodyOne.vue";
+import BodyTwo from "./components/BodyTwo.vue";
 export default {
   name: "App",
   components: {
     NavBar,
     HeroSection,
     BodyOne,
+    BodyTwo,
   },
 };
 </script>
@@ -20,6 +22,7 @@ export default {
     </div>
     <body>
       <BodyOne />
+      <BodyTwo />
     </body>
   </div>
 </template>
