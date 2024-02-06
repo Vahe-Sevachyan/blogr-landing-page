@@ -34,6 +34,10 @@
 </template>
 
 <style scoped>
+h2 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
 .body-one-container {
   width: 85%;
   /* height: 60rem; */
@@ -43,7 +47,7 @@
   align-items: center;
   flex-direction: column;
   margin-top: 2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
 }
 .body-one-display {
   display: flex;
@@ -54,9 +58,8 @@
 .description-paragraph {
   display: flex;
   flex-direction: column;
-  max-width: 100%;
-  max-height: 100%;
-  font-size: 1.3vw;
+  width: 40vw;
+  font-size: 1.8rem;
 }
 .description-paragraph p {
   color: #2c2d3f;

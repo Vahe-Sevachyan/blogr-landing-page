@@ -15,13 +15,25 @@ export default {
       </ul>
     </nav>
     <div class="btn-container">
-      <button>Login</button>
-      <button>Sign Up</button>
+      <button class="btn-one">Login</button>
+      <button class="btn-two">Sign Up</button>
     </div>
   </div>
 </template>
 
 <style scoped>
+button {
+  font-family: "Ubuntu", Arial, Helvetica, sans-serif, monospace;
+  font-weight: 600;
+
+  cursor: pointer;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+
+  border: none;
+  border-radius: 20px;
+
+  border: solid white 1.5px;
+}
 .nav-section {
   /* background-color: grey; */
   /* width: 130rem; */
@@ -45,7 +57,7 @@ export default {
   align-items: center;
 }
 .btn-container {
-  width: 12rem;
+  width: 17rem;
   display: flex;
   justify-content: space-between;
 }
