@@ -22,6 +22,8 @@ export default {
 </template>
 
 <style scoped>
+@import url("https://fonts.google.com/specimen/Overpass?preview.text_type=custom");
+@import url("https://fonts.google.com/specimen/Ubuntu?preview.text_type=custom");
 button {
   font-family: "Ubuntu", Arial, Helvetica, sans-serif, monospace;
   font-weight: 600;

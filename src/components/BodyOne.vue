@@ -34,10 +34,18 @@
 </template>
 
 <style scoped>
+@import url("https://fonts.google.com/specimen/Overpass?preview.text_type=custom");
+@import url("https://fonts.google.com/specimen/Ubuntu?preview.text_type=custom");
 h2 {
   font-size: 3rem;
   margin-bottom: 3rem;
+  font-family: "Ubuntu", Arial, Helvetica, sans-serif, monospace;
 }
+h2,
+h3 {
+  color: hsl(208, 46%, 35%);
+}
+
 .body-one-container {
   width: 85%;
   /* height: 60rem; */
@@ -62,8 +70,9 @@ h2 {
   font-size: 1.8rem;
 }
 .description-paragraph p {
-  color: #2c2d3f;
   margin-bottom: 2rem;
+  color: hsl(208, 46%, 35%);
+  font-size: 1.7rem;
 }
 .description-paragraph h3 {
   margin-bottom: 2.5rem;
