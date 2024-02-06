@@ -50,5 +50,6 @@ export default {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  border-bottom-left-radius: 90px;
 }
 </style>

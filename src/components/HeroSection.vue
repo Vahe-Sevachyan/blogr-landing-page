@@ -29,14 +29,14 @@ p {
 }
 h1 {
   font-family: "Overpass", Arial, Helvetica, sans-serif, monospace;
-  font-size: 5rem;
+  font-size: 4.6rem;
   font-weight: 300;
   margin-bottom: 1.5rem;
 }
 p {
   font-family: "Ubuntu", Arial, Helvetica, sans-serif, monospace;
   font-size: 1.8rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 3rem;
 }
 button {
   font-family: "Ubuntu", Arial, Helvetica, sans-serif, monospace;

@@ -25,18 +25,13 @@ export default {
 button {
   font-family: "Ubuntu", Arial, Helvetica, sans-serif, monospace;
   font-weight: 600;
-
   cursor: pointer;
   padding: 1rem 1.5rem 1rem 1.5rem;
-
   border: none;
   border-radius: 20px;
-
-  border: solid white 1.5px;
+  /* border: solid white 1.5px; */
 }
 .nav-section {
-  /* background-color: grey; */
-  /* width: 130rem; */
   width: 80%;
   margin: auto;
   display: flex;
@@ -51,14 +46,24 @@ button {
 }
 .nav-links {
   display: flex;
-  width: 18rem;
+  width: 20rem;
   justify-content: space-between;
   list-style: none;
   align-items: center;
+  font-family: "Ubuntu", Arial, Helvetica, sans-serif, monospace;
+  font-size: 1.5rem;
+  color: white;
 }
 .btn-container {
   width: 17rem;
   display: flex;
   justify-content: space-between;
+}
+.btn-two {
+  color: hsl(356, 100%, 66%);
+}
+.btn-one {
+  color: white;
+  background-color: inherit;
 }
 </style>
