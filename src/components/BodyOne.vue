@@ -6,7 +6,7 @@
 
 <template>
   <div class="body-one-container">
-    <h2>Designed for the future</h2>
+    <h2 class="text-blue-500">Designed for the future</h2>
     <div class="body-one-display">
       <div class="description-paragraph">
         <h3>Introducing an extensible editor</h3>
@@ -43,7 +43,7 @@ h2 {
 }
 h2,
 h3 {
-  color: hsl(208, 46%, 35%);
+  /* color: hsl(208, 46%, 35%); */
 }
 .body-one-container {
   width: 85%;

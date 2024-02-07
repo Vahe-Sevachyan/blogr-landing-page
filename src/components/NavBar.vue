@@ -25,13 +25,12 @@ export default {
 @import url("https://fonts.google.com/specimen/Overpass?preview.text_type=custom");
 @import url("https://fonts.google.com/specimen/Ubuntu?preview.text_type=custom");
 button {
-  font-family: "Ubuntu", Arial, Helvetica, sans-serif, monospace;
   font-weight: 600;
   cursor: pointer;
   padding: 1rem 1.5rem 1rem 1.5rem;
   border: none;
   border-radius: 20px;
-  /* border: solid white 1.5px; */
+  border: solid white 1.5px;
 }
 .nav-section {
   width: 80%;
@@ -63,9 +62,11 @@ button {
 }
 .btn-two {
   color: hsl(356, 100%, 66%);
+  background-color: white;
 }
 .btn-one {
   color: white;
   background-color: inherit;
+  font-size: 2.5;
 }
 </style>

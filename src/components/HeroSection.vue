@@ -59,6 +59,7 @@ button {
 }
 .btn-one {
   color: hsl(356, 100%, 66%);
+  background-color: white;
 }
 .btn-two {
   color: white;
