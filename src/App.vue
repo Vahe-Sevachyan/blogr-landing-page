@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar.vue";
 import HeroSection from "./components/HeroSection.vue";
 import BodyOne from "./components/BodyOne.vue";
 import BodyTwo from "./components/BodyTwo.vue";
+import BodyThree from "./components/BodyThree.vue";
 export default {
   name: "App",
   components: {
@@ -10,6 +11,7 @@ export default {
     HeroSection,
     BodyOne,
     BodyTwo,
+    BodyThree,
   },
 };
 </script>
@@ -23,6 +25,7 @@ export default {
     <body>
       <BodyOne />
       <BodyTwo />
+      <BodyThree />
     </body>
   </div>
 </template>

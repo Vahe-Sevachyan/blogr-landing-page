@@ -35,10 +35,7 @@
   /* text-align: left; */
   background-image: url("../assets/images/bg-pattern-circles.svg");
   background-repeat: no-repeat;
-  /* background-position-x: left; */
   background-position-y: top;
-
-  /* left: 0;  */
   justify-content: space-between;
 }
 /* .img-container {
@@ -56,7 +53,8 @@
   font-size: 3.8em;
   margin-bottom: 1.5rem;
 }
-.paragraph-container p {
+p {
   font-size: 2em;
+  color: white;
 }
 </style>
