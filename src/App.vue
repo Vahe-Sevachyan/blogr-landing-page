@@ -4,6 +4,7 @@ import HeroSection from "./components/HeroSection.vue";
 import BodyOne from "./components/BodyOne.vue";
 import BodyTwo from "./components/BodyTwo.vue";
 import BodyThree from "./components/BodyThree.vue";
+import FooterSection from "./components/FooterSection.vue";
 export default {
   name: "App",
   components: {
@@ -12,6 +13,7 @@ export default {
     BodyOne,
     BodyTwo,
     BodyThree,
+    FooterSection,
   },
 };
 </script>
@@ -26,6 +28,7 @@ export default {
       <BodyOne />
       <BodyTwo />
       <BodyThree />
+      <FooterSection />
     </body>
   </div>
 </template>
