@@ -9,10 +9,10 @@
       <div class="paragraph-container">
         <h1>State of the art infrastructure</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius nemo
-          dicta reiciendis pariatur amet quaerat molestiae inventore consequatur
-          libero aspernatur iure culpa animi, ratione sint voluptates!
-          Consequatur commodi voluptas corporis.
+          With reliability and speed in mind. worldwide data centers provide the
+          backbone for ultra-fast connectivity. This ensures your site will load
+          instantly, no matter where your readers are, keeping your site
+          competitive.
         </p>
       </div>
     </div>

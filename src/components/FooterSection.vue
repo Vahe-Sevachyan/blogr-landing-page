@@ -1,7 +1,7 @@
 <script></script>
 <template>
   <div class="bg-container">
-    <div class="nav-container">
+    <div class="footer-container">
       <img src="../assets/images/logo.svg" alt="logo picture" />
       <div class="link-container">
         <div class="links">
@@ -37,22 +37,33 @@
 </template>
 
 <style scoped>
+h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+li {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
 .bg-container {
   max-width: 100%;
-  background-color: black;
+  background-color: hsl(240, 10%, 16%);
+  border-top-right-radius: 65px;
 }
 img {
   width: 85px;
   height: 30px;
 }
-.nav-container {
+.footer-container {
   /* height: 30vh; */
+
   width: 60rem;
   color: white;
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
-  padding: 7rem 0 7rem 0;
+  padding: 7rem 0 6rem 0;
 }
 .link-container {
   width: 40rem;

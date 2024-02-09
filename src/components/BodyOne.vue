@@ -11,17 +11,18 @@
       <div class="description-paragraph">
         <h3>Introducing an extensible editor</h3>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum iste
-          autem, enim quibusdam impedit recusandae consequatur minima reiciendis
-          ipsam voluptatum exercitationem laboriosam quo natus. Recusandae dolor
-          ad deleniti blanditiis velit.
+          blogr teatures an exceedingly inturive interrace wnich lets you tocus
+          on one thing: creating content. The editor supports management of
+          multiple blogs and allows easy manipulation of embeds such as images,
+          videos, and Markdown. Extensibility with plugins and themes provide
+          easy ways to add functionality or change the looks of a blog
         </p>
         <h3>Robust content management</h3>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum iste
-          autem, enim quibusdam impedit recusandae consequatur minima reiciendis
-          ipsam voluptatum exercitationem laboriosam quo natus. Recusandae dolor
-          ad deleniti blanditiis velit.
+          Flexible content management enables users to easily move through
+          posts. Increase the usability of your blog by adding customized
+          categories, sections, format, or flow. With this functionality, you're
+          in full control.
         </p>
       </div>
       <img
@@ -37,13 +38,16 @@
 @import url("https://fonts.google.com/specimen/Overpass?preview.text_type=custom");
 @import url("https://fonts.google.com/specimen/Ubuntu?preview.text_type=custom");
 h2 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   margin: 3rem 0 3rem 0;
   font-family: "Ubuntu", Arial, Helvetica, sans-serif, monospace;
+  color: hsl(208, 46%, 35%);
 }
-h2,
+
 h3 {
   color: hsl(208, 46%, 35%);
+  font-size: 3rem;
+  font-weight: 500;
 }
 .body-one-container {
   width: 85%;
