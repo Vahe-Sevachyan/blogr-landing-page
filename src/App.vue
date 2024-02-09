@@ -1,19 +1,19 @@
 <script>
 import NavBar from "./components/NavBar.vue";
 import HeroSection from "./components/HeroSection.vue";
-import BodyOne from "./components/BodyOne.vue";
+import BodyOneTW from "./components/BodyOneTW.vue";
 import BodyTwo from "./components/BodyTwo.vue";
 import BodyThree from "./components/BodyThree.vue";
-import FooterSection from "./components/FooterSection.vue";
+import FooterSectionTW from "./components/FooterSectionTW.vue";
 export default {
   name: "App",
   components: {
     NavBar,
     HeroSection,
-    BodyOne,
+    BodyOneTW,
     BodyTwo,
     BodyThree,
-    FooterSection,
+    FooterSectionTW,
   },
 };
 </script>
@@ -25,10 +25,10 @@ export default {
       <HeroSection />
     </div>
     <body>
-      <BodyOne />
+      <BodyOneTW />
       <BodyTwo />
       <BodyThree />
-      <FooterSection />
+      <FooterSectionTW />
     </body>
   </div>
 </template>
@@ -37,21 +37,14 @@ export default {
 .header {
   background-color: hsl(356, 100%, 66%);
   background-image: url("./assets/images/bg-pattern-intro-desktop.svg");
-  /* background-size: cover;
-  background-position-x: center;
-  background-position-y: center;
-  -webkit-background-size: cover; */
-  /* ******************************** */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-position-x: center;
   background-position-y: center;
-  /* max-width: 170rem; */
   width: 100%;
   margin: auto;
-  /* height: 70vh; */
   display: flex;
   justify-content: center;
   align-items: center;

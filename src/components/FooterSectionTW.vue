@@ -1,7 +1,8 @@
 <script></script>
 <template>
   <div class="bg-container">
-    <div class="footer-container">
+    <!-- .footer-container -->
+    <div class="flex justify-center text-white space-x-60">
       <img src="../assets/images/logo.svg" alt="logo picture" />
       <div class="link-container">
         <div class="links">
@@ -58,7 +59,7 @@ img {
 .footer-container {
   /* height: 30vh; */
   width: 60rem;
-  color: white;
+  /* color: white; */
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
