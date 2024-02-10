@@ -84,18 +84,38 @@ img {
 }
 
 @media only screen and (max-width: 1250px) {
+  .body-one-container {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
   img {
     max-width: 70%;
     max-height: 70%;
   }
   h2 {
     font-size: 2.5rem;
+    margin: 2rem 0 0rem 0;
   }
   h3 {
     font-size: 2.5rem;
   }
   p {
     font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 875px) {
+  .body-one-display {
+    flex-direction: column-reverse;
+    margin-bottom: 3rem;
+  }
+  h2 {
+    margin-bottom: 7rem;
+  }
+  .description-paragraph {
+    width: 50rem;
+  }
+  img {
+    margin-bottom: 4rem;
   }
 }
 </style>
