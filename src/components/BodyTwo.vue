@@ -2,10 +2,10 @@
 <template>
   <div class="main-container">
     <div class="display-container">
-      <div class="img-container">
+      <!-- <div class="img-container">
         <img src="../assets/images/illustration-phones.svg" alt="" />
-      </div>
-
+      </div> -->
+      <img src="../assets/images/illustration-phones.svg" alt="" />
       <div class="paragraph-container">
         <h1>State of the art infrastructure</h1>
         <p>
@@ -24,19 +24,25 @@
   align-items: center;
   width: 100%;
   margin: auto;
-  border-bottom-left-radius: 185px;
-  border-top-right-radius: 185px;
+  border-bottom-left-radius: 145px;
+  border-top-right-radius: 145px;
+  background-image: url("../assets/images/bg-pattern-circles.svg");
+  background-repeat: no-repeat;
+  justify-content: space-between;
+  height: 50rem;
 }
 .display-container {
   display: flex;
   align-items: center;
-  width: 70vw;
-  margin: auto;
-  /* text-align: left; */
-  background-image: url("../assets/images/bg-pattern-circles.svg");
-  background-repeat: no-repeat;
-  background-position-y: top;
   justify-content: space-between;
+  width: 68vw;
+  margin: auto;
+}
+img {
+  width: 650px;
+  height: 690px;
+  object-fit: cover;
+  transform: translateY(-65px);
 }
 /* .img-container {
   background-image: url("../assets/images/bg-pattern-circles.svg");
@@ -46,8 +52,10 @@
 .paragraph-container {
   display: flex;
   flex-direction: column;
+  margin-bottom: 18rem;
   width: 30vw;
   color: white;
+  font-size: 8px;
 }
 .paragraph-container h1 {
   font-size: 3.8em;
@@ -56,5 +64,25 @@
 p {
   font-size: 2em;
   color: white;
+}
+@media only screen and (max-width: 1525px) {
+  .paragraph-container {
+    font-size: 7px;
+  }
+  img {
+    width: 550px;
+    height: 590px;
+  }
+  .main-container {
+    height: 45rem;
+  }
+}
+@media only screen and (max-width: 1250px) {
+  .paragraph-container {
+    font-size: 6px;
+  }
+  .main-container {
+    height: 40rem;
+  }
 }
 </style>

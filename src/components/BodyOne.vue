@@ -106,7 +106,7 @@ img {
 @media only screen and (max-width: 875px) {
   .body-one-display {
     flex-direction: column-reverse;
-    margin-bottom: 3rem;
+    margin-bottom: 10rem;
   }
   h2 {
     margin-bottom: 7rem;
