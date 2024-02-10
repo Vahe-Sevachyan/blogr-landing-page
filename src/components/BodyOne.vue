@@ -25,11 +25,7 @@
           in full control.
         </p>
       </div>
-      <img
-        class="description-img"
-        src="../assets/images/illustration-editor-desktop.svg"
-        alt=""
-      />
+      <img src="../assets/images/illustration-editor-desktop.svg" alt="" />
     </div>
   </div>
 </template>
@@ -37,6 +33,18 @@
 <style scoped>
 @import url("https://fonts.google.com/specimen/Overpass?preview.text_type=custom");
 @import url("https://fonts.google.com/specimen/Ubuntu?preview.text_type=custom");
+
+.body-one-container {
+  width: 85%;
+  /* height: 60rem; */
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
 h2 {
   font-size: 3.5rem;
   margin: 3rem 0 3rem 0;
@@ -48,17 +56,6 @@ h3 {
   color: hsl(208, 46%, 35%);
   font-size: 3rem;
   font-weight: 500;
-}
-.body-one-container {
-  width: 85%;
-  /* height: 60rem; */
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 2rem;
-  margin-bottom: 5rem;
 }
 .body-one-display {
   display: flex;
@@ -80,9 +77,25 @@ p {
 .description-paragraph h3 {
   margin-bottom: 2.5rem;
 }
-.description-img {
+img {
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+@media only screen and (max-width: 1250px) {
+  img {
+    max-width: 70%;
+    max-height: 70%;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 1.2rem;
+  }
 }
 </style>

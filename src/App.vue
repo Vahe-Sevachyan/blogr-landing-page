@@ -1,19 +1,19 @@
 <script>
 import NavBar from "./components/NavBar.vue";
 import HeroSection from "./components/HeroSection.vue";
-import BodyOneTW from "./components/BodyOneTW.vue";
+import BodyOne from "./components/BodyOne.vue";
 import BodyTwo from "./components/BodyTwo.vue";
 import BodyThree from "./components/BodyThree.vue";
-import FooterSectionTW from "./components/FooterSectionTW.vue";
+import FooterSection from "./components/FooterSection.vue";
 export default {
   name: "App",
   components: {
     NavBar,
     HeroSection,
-    BodyOneTW,
+    BodyOne,
     BodyTwo,
     BodyThree,
-    FooterSectionTW,
+    FooterSection,
   },
 };
 </script>
@@ -25,10 +25,10 @@ export default {
       <HeroSection />
     </div>
     <body>
-      <BodyOneTW />
+      <BodyOne />
       <BodyTwo />
       <BodyThree />
-      <FooterSectionTW />
+      <FooterSection />
     </body>
   </div>
 </template>
