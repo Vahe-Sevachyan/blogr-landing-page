@@ -1,8 +1,8 @@
 <script></script>
 <template>
-  <div class="container">
+  <div class="wrapper">
     <img src="../assets/images/illustration-laptop-desktop.svg" alt="" />
-    <div>
+    <div class="content-container">
       <div>
         <h3>Free, Open, Simple</h3>
         <p>
@@ -25,17 +25,21 @@
   </div>
 </template>
 <style scoped>
-.container {
+.wrapper {
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 130rem;
+  justify-content: space-between;
   margin: auto;
-  margin-top: 5rem;
+  width: 140rem;
+  margin-top: 12rem;
+  transform: translateX(-345px);
+}
+.content-container {
+  width: 60rem;
 }
 p {
   color: hsl(208, 46%, 35%);
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   margin-bottom: 3rem;
 }
 h3 {
@@ -44,6 +48,9 @@ h3 {
   margin-bottom: 3rem;
 }
 img {
-  width: 75rem;
+  width: 650px;
+  height: 690px;
+  /* transform: translateX(-345px); */
+  object-fit: cover;
 }
 </style>

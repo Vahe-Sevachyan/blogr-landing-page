@@ -115,9 +115,9 @@ img {
     width: 75vw;
     align-items: center;
   }
-  /* p {
+  .description-paragraph p {
     align-items: center;
-  } */
+  }
 
   img {
     margin-bottom: 4rem;
