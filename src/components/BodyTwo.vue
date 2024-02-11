@@ -7,12 +7,12 @@
       </div> -->
       <img src="../assets/images/illustration-phones.svg" alt="" />
       <div class="paragraph-container">
-        <h1>State of the art infrastructure</h1>
+        <h3>State of the art infrastructure</h3>
         <p>
           With reliability and speed in mind. worldwide data centers provide the
           backbone for ultra-fast connectivity. This ensures your site will load
           instantly, no matter where your readers are, keeping your site
-          competitive.
+          competitive. Keeping your site competitive.
         </p>
       </div>
     </div>
@@ -57,7 +57,7 @@ img {
   color: white;
   font-size: 8px;
 }
-.paragraph-container h1 {
+.paragraph-container h3 {
   font-size: 3.8em;
   margin-bottom: 1.5rem;
 }
@@ -83,6 +83,27 @@ p {
   }
   .main-container {
     height: 40rem;
+  }
+}
+@media only screen and (max-width: 875px) {
+  .display-container {
+    flex-direction: column;
+  }
+  .main-container {
+    height: 60rem;
+  }
+  img {
+    margin-bottom: -20rem;
+    transform: translateY(-225px);
+    width: 450px;
+    height: 490px;
+  }
+  .paragraph-container {
+    /* display: flex; */
+    width: 65vw;
+    font-size: 8px;
+    /* align-items: center; */
+    text-align: center;
   }
 }
 </style>

@@ -106,14 +106,19 @@ img {
 @media only screen and (max-width: 875px) {
   .body-one-display {
     flex-direction: column-reverse;
-    margin-bottom: 10rem;
+    margin-bottom: 30rem;
   }
   h2 {
     margin-bottom: 7rem;
   }
   .description-paragraph {
-    width: 50rem;
+    width: 75vw;
+    align-items: center;
   }
+  /* p {
+    align-items: center;
+  } */
+
   img {
     margin-bottom: 4rem;
   }
