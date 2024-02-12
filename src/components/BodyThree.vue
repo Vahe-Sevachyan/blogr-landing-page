@@ -71,13 +71,19 @@ img {
   @media only screen and (max-width: 875px) {
     .wrapper {
       flex-direction: column;
-      transform: translateX(90px);
-      width: 100%;
+      transform: translateX(30px);
+
+      margin: auto;
     }
     img {
       width: 550px;
       height: 590px;
+      object-fit: contain;
     }
+  }
+  .content-container {
+    display: flex;
+    flex-direction: column;
   }
 }
 </style>
