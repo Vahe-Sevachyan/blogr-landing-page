@@ -2,8 +2,8 @@
 <template>
   <div class="bg-container">
     <div class="footer-container">
-      <img src="../assets/images/logo.svg" alt="logo picture" />
       <div class="link-container">
+        <img src="../assets/images/logo.svg" alt="logo picture" />
         <div class="links">
           <h3>Product</h3>
           <ul>
@@ -56,8 +56,7 @@ img {
   height: 30px;
 }
 .footer-container {
-  /* height: 30vh; */
-  width: 60rem;
+  width: 70rem;
   color: white;
   display: flex;
   margin: 0 auto;
@@ -65,12 +64,26 @@ img {
   padding: 7rem 0 6rem 0;
 }
 .link-container {
-  width: 40rem;
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
 .links {
   display: flex;
   flex-direction: column;
+}
+@media only screen and (max-width: 875px) {
+  .link-container {
+    flex-direction: column;
+    margin: auto;
+    width: 10rem;
+  }
+  img {
+    margin-bottom: 4rem;
+  }
+  h3,
+  ul {
+    margin-bottom: 2rem;
+  }
 }
 </style>
