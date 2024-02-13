@@ -30,14 +30,14 @@
   align-items: center;
   justify-content: space-between;
   margin: auto;
-  width: 100%;
+  width: 90%;
   /* width: 140rem; */
   margin-top: 12rem;
-  transform: translateX(-125px);
+  transform: translateX(-230px);
   margin-bottom: 10rem;
 }
 .content-container {
-  width: 40%;
+  width: 45%;
 }
 p {
   color: hsl(208, 46%, 35%);
@@ -72,7 +72,6 @@ img {
     .wrapper {
       flex-direction: column;
       transform: translateX(30px);
-
       margin: auto;
     }
     img {
@@ -81,9 +80,11 @@ img {
       object-fit: contain;
     }
   }
-  .content-container {
+
+  .content-container div {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 }
 </style>
